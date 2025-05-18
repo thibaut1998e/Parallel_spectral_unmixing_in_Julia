@@ -2,7 +2,7 @@
 
 ## 📌 Project Goals
 
-This project was designed with two main educational objectives in mind. First, it aims to demonstrate how to use parallel computing capabilities in Julia, a high-performance programming language well-suited for numerical analysis and scientific computing. Second, it provides a practical introduction to spectral unmixing techniques, a key tool in analyzing hyperspectral remote sensing data.
+This project was designed with two main objectives in mind. First, it aims to demonstrate how to use parallel computing capabilities in Julia, a high-performance programming language well-suited for numerical analysis and scientific computing. Second, it provides a practical introduction to spectral unmixing techniques, a key tool in analyzing hyperspectral remote sensing data.
 
 ## 🌍 Background
 
