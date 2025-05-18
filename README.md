@@ -10,13 +10,17 @@ This project was designed with two main educational objectives in mind. First, i
 
 Hyperspectral images are a type of data captured across many narrow and contiguous spectral bands. Instead of just collecting color information like standard RGB images, hyperspectral images record a full reflectance spectrum for each pixel, often spanning the visible and near-infrared wavelengths. This detailed spectral information allows us to detect and identify materials based on how they reflect light at different wavelengths.
 
-These images are commonly used in remote sensing applications such as environmental monitoring, precision agriculture, geology, and defense. However, due to the limited spatial resolution of hyperspectral sensors, a single pixel often contains a mixture of multiple materials. This phenomenon leads to the need for spectral unmixing. See bellow an example of hyperspectral image 
+These images are commonly used in remote sensing applications such as environmental monitoring, precision agriculture, geology, and defense. However, due to the limited spatial resolution of hyperspectral sensors, a single pixel often contains a mixture of multiple materials. This phenomenon leads to the need for spectral unmixing. See bellow an example of hyperspectral image.
+
+![im](hyper_spectral_imaging.png)
 
 
 
 ### Spectral Unmixing
 
-Spectral unmixing is the process of determining the composition of each pixel in a hyperspectral image. In practice, we assume that each pixel’s spectrum is a mixture of a few basic components called endmembers. These endmembers represent the spectral signatures of pure materials such as green vegetation, dry vegetation, soil, or kaolinite. The goal of spectral unmixing is to identify the proportion of each endmember present in every pixel. This helps us understand the material composition of the scene, which is useful for a wide range of applications from land cover classification to mineral exploration.
+Spectral unmixing is the process of determining the composition of each pixel in a hyperspectral image. In practice, we assume that each pixel’s spectrum is a mixture of a few basic components called endmembers. These endmembers represent the spectral signatures of pure materials such as green vegetation, dry vegetation, soil, or kaolinite. The goal of spectral unmixing is to identify the proportion of each endmember present in every pixel. This helps us understand the material composition of the scene, which is useful for a wide range of applications from land cover classification to mineral exploration. See bellow an illustration of the concept of spectral unmixing : 
+
+![im](spectral_unmixing.png)
 
 ## ⚙️ Parallel Computing in Julia
 
