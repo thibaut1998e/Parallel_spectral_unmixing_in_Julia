@@ -10,7 +10,9 @@ This project was designed with two main educational objectives in mind. First, i
 
 Hyperspectral images are a type of data captured across many narrow and contiguous spectral bands. Instead of just collecting color information like standard RGB images, hyperspectral images record a full reflectance spectrum for each pixel, often spanning the visible and near-infrared wavelengths. This detailed spectral information allows us to detect and identify materials based on how they reflect light at different wavelengths.
 
-These images are commonly used in remote sensing applications such as environmental monitoring, precision agriculture, geology, and defense. However, due to the limited spatial resolution of hyperspectral sensors, a single pixel often contains a mixture of multiple materials. This phenomenon leads to the need for spectral unmixing.
+These images are commonly used in remote sensing applications such as environmental monitoring, precision agriculture, geology, and defense. However, due to the limited spatial resolution of hyperspectral sensors, a single pixel often contains a mixture of multiple materials. This phenomenon leads to the need for spectral unmixing. See bellow an example of hyperspectral image 
+
+
 
 ### Spectral Unmixing
 
